@@ -6,4 +6,19 @@
 
 header{
     display: flex;
+    background-color: #801215;
+}
+
+.header-button{
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header-button a{
+    text-decoration: none;
+    font: 600 1.5rem;
+    margin: 0.8rem;
+    color: #CCC800;
+    display: flex;
 }
