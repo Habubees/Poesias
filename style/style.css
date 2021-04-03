@@ -21,6 +21,7 @@ header{
     display: flex;
     background-color: var(--color-header);
     align-items: center;
+    padding: 0;
 }
 
 .header-button{
@@ -28,19 +29,41 @@ header{
     display: flex;
     justify-content: center;
     cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.item-header{
+    list-style: none;
 }
 
 .header-button a{
+    padding: 1.3rem 0.4rem;
+    
+    margin: 0 0.5rem;
     text-decoration: none;
     text-transform: uppercase;
-    font: 600 1.2rem Times;
-    margin: 0.8rem;
+    font: 600 1rem Times;
     color: var(--color-letter);
     display: flex;
-    transition: 0.8s;
 }
 
 #button-trovadorismo:hover{
-    padding-bottom: 1rem;
-    background-color: var(--color-header-hover);
+    border-top: solid olive 0.2rem;
+}
+
+#button-barroco:hover{
+    border-top: solid olive 0.2rem;
+}
+
+#button-romantismo:hover{
+    border-top: solid olive 0.2rem;
+}
+
+#button-simbolismo:hover{
+    border-top: solid olive 0.2rem;
+}
+
+#button-modernismo:hover{
+    border-top: solid olive 0.2rem;
 }
