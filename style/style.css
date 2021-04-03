@@ -1,3 +1,16 @@
+:root{
+    --color-background: #181818;
+    --color-darkest: #020202;
+    --color-blue: #0a2472;
+    --color-header: #3f4238;
+    --color-header-hover: #2f312b;
+    --color-letter: #B7B7A4;
+}
+
+body{
+    background-color: var(--color-background);
+}
+
 .logo_alphonsus{
     width: 4rem;
     height: 4rem;
@@ -6,19 +19,28 @@
 
 header{
     display: flex;
-    background-color: #801215;
+    background-color: var(--color-header);
+    align-items: center;
 }
 
 .header-button{
+    width: 100%;
+    display: flex;
     justify-content: center;
-    align-items: center;
     cursor: pointer;
 }
 
 .header-button a{
     text-decoration: none;
-    font: 600 1.5rem;
+    text-transform: uppercase;
+    font: 600 1.2rem Times;
     margin: 0.8rem;
-    color: #CCC800;
+    color: var(--color-letter);
     display: flex;
+    transition: 0.8s;
+}
+
+#button-trovadorismo:hover{
+    padding-bottom: 1rem;
+    background-color: var(--color-header-hover);
 }
