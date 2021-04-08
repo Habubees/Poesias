@@ -1,20 +1,23 @@
 :root{
-    --color-background: #181818;
+    --color-background1: #181818;
+    --color-background2: #505050;
     --color-darkest: #020202;
     --color-blue: #0a2472;
     --color-header: #3f4238;
     --color-header-hover: #2f312b;
     --color-letter: #B7B7A4;
+    --color-div: wheat;
+    --color-div2: whitesmoke;
 }
 
 body{
-    background-color: var(--color-background);
+    margin: 0;
 }
+
 
 .logo_alphonsus{
     width: 4rem;
     height: 4rem;
-    border-radius: 50%;
 }
 
 header{
@@ -22,6 +25,7 @@ header{
     background-color: var(--color-header);
     align-items: center;
     padding: 0;
+    margin: 0;
 }
 
 .header-button{
@@ -43,27 +47,69 @@ header{
     margin: 0 0.5rem;
     text-decoration: none;
     text-transform: uppercase;
-    font: 600 1rem Times;
+    font: 700 1rem Roboto;
     color: var(--color-letter);
     display: flex;
 }
 
 #button-trovadorismo:hover{
-    border-top: solid olive 0.2rem;
+    border-top: solid var(--color-letter) 0.2rem;
 }
 
 #button-barroco:hover{
-    border-top: solid olive 0.2rem;
+    border-top: solid var(--color-letter) 0.2rem;
 }
 
 #button-romantismo:hover{
-    border-top: solid olive 0.2rem;
+    border-top: solid var(--color-letter) 0.2rem;
 }
 
 #button-simbolismo:hover{
-    border-top: solid olive 0.2rem;
+    border-top: solid var(--color-letter) 0.2rem;
 }
 
 #button-modernismo:hover{
-    border-top: solid olive 0.2rem;
+    border-top: solid var(--color-letter) 0.2rem;
+}
+
+.part1{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-background1);
+    height: 105vh;
+}
+
+.poetry{
+    width: 40rem;
+    height: 90vh;
+    font-weight: bolder;
+    background-color: var(--color-div);
+    padding: 0.5rem 0.8rem;
+    margin-top: 1.5rem;
+    border-radius: 0.8rem;
+    text-align: center;
+}
+
+.poetry h3{
+    text-align: right;
+}
+
+.part2{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-background2);
+    height: 105vh;
+}
+
+.site-summary{
+    height: 20rem;
+    width: 80rem;
+    background-color: whitesmoke;
+    margin: 2rem 2rem;
+    border-radius: 0.8rem;
+}
+
+.part2 img{
+    height: 20rem;
+    margin-top: 2rem;
 }
