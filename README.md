@@ -2,6 +2,6 @@
 
 “No fundo, a poesia é isto: a eternização do momento.” Mário Quintana
 
-Site that talks about the Brazilian Literature
+Site about the Brazilian Literature
 
-Since the Trovadorismo still the Modernismo
+Since Trovadorismo untill Modernismo
